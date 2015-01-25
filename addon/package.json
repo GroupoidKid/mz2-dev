@@ -7,7 +7,10 @@
   "license": "MPL 2.0",
   "version": "0.1",
   "permissions": {
-    "cross-domain-content": ["https://utils.mh.raistlin.fr"]
+  	"cross-domain-content": [
+    	"https://utils.mh.raistlin.fr",
+    	"http://weblocal"
+    ]
   },
   "preferences": [{
         "name": "serveursMH",
@@ -17,8 +20,8 @@
         "value": "games.mountyhall.com,serv01.mountyhall.com,localhost"
     },
     {
-        "name": "serveurMZ", 
-        "title": "Serveur MZ",    
+        "name": "serveurMZ",
+        "title": "Serveur MZ",
         "description": "Serveur principal des scripts MZ",
         "type": "string",
         "value": "utils.mh.raistlin.fr"
